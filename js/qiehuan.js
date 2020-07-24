@@ -2,7 +2,6 @@
 var jsVer = 15;
 var phoneWidth = parseInt(window.screen.width);
 var phoneScale = phoneWidth / 750;
-
 var ua = navigator.userAgent;
 if (/Android (\d+\.\d+)/.test(ua)) {
 	var version = parseFloat(RegExp.$1);
