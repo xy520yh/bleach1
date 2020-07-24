@@ -16,6 +16,17 @@
 <body>
 	<!--第一屏幕 --> 
 	<div class="page1">
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="index.html" class="nav_01 on"></a> 
+				<a href="#section2" class="nav_02"></a> 
+				<a href="#section4" class="nav_03"></a> 
+				<a href="#section5" class="nav_04"></a> 
+				<a href="#section6" class="nav_05"></a> 
+		  </div>
+		  <div class="nav_ico" onclick="openNav()">
+			  <img src="images/nav_bg_01.png">
+		  </div>
 		<div class="logo animated  fadeInDown"><a href="index.html"><img src="images/logo.png"></a></div>
 		<div class="input1" >
             <P ><input name="" type="text"  class="text_content1"/></P>
@@ -171,14 +182,14 @@
 		   <div><img src="images/footer_02.jpg"></div>
 	 </div>
 
-	<!-- <div id="top-back"><a href="#section1">頂部</a></div> -->
+	<div id="top-back"><a href="#section1">頂部</a></div> 
 	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
 	<script type="text/javascript" src="js/qiehuan.js"></script>
-	<!-- <script  type="text/javascript" src="js/jquery.colorbox.js"></script>
+	 <script  type="text/javascript" src="js/jquery.colorbox.js"></script>
 	<script type="text/javascript" src="js/swiper.3.4.1.js"></script> 
 	<script type="text/javascript" src="js/scrollbar.js"></script>
 <script type="text/javascript" src="js/common.js"></script> 
-	<script type="text/javascript" src="js/slider.js"></script> -->
+	<script type="text/javascript" src="js/slider.js"></script> 
 	<script>
 		var swiper = new Swiper('.box3', {
         effect: 'coverflow',
