@@ -85,8 +85,8 @@ a.video{    position: absolute; top: 71px;left: 135px;width: 50px;height: 30px;d
 .page7 .flex{ text-align: center;}
 .page7 div{margin-bottom: 8px;}
 /*返回顶部*/ 
-/* #top-back{ position:fixed; bottom:50px; right:50px; width:50px; height:50px; color:#fff; background-color:#000; text-align:center; line-height:50px; z-index:9;}
-#top-back a{color:#fff;} */
+ #top-back{ position:fixed; bottom:50px; right:50px; width:50px; height:50px; color:#fff; background-color:#000; text-align:center; line-height:50px; z-index:9;}
+#top-back a{color:#fff;}
 
 
 .nav_ico{position: absolute; left: 0;top:0;}
@@ -107,7 +107,7 @@ a.video{    position: absolute; top: 71px;left: 135px;width: 50px;height: 30px;d
     height: 316px;
     width: 261px;
     position: fixed;
-    z-index: 1;
+    z-index: 1; display: none;
     top: 0;
     left: 80px;
    background: url(../images/nav_bg_02.png) no-repeat; 
