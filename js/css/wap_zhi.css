@@ -1,0 +1,112 @@
+/* CSS Document */
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video {margin:0; padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;}
+body{ font-family:Arial, "微軟正黑體"; font-size:16px; background-color: #fff;}
+*{margin:0px; padding:0px;}
+.left{ float:left;}
+.right{ float:right;}
+ul {list-style:none;margin:0; padding:0;}
+li{ display:inline; margin:0; padding:0; float:left;}
+a {    text-decoration:none; }
+.no{ display:none;}
+/*页面css*/
+#wrapper{width: 740px; margin:0 auto; height:3766px;}
+/*头部*/
+.s1{width:740px; background: url(../images/top_bg1.png); height:1044px; position:relative;margin:0 auto;}
+.phone_top{background: url(../images/phone_top_bgg1.png);height: 50px;position: absolute;left: 0;top: 0;width: 740px;z-index: 1000;}
+ .one1{position:relative;}
+ a.zhan {cursor:pointer; display:block; width:90px;position:absolute;     top: 7px;left: 28px;}
+ 
+.select_ul{background:#332721; border:2px solid #161616; width:190px; position:absolute; left:0px; top:50px;display:none; z-index:19999;}
+.select_ul li{height:55px; background:#4d352a;margin-bottom: 2px;width:190px;}
+.select_ul li img{margin-top: 16px;}
+.select_ul li a{display:block;height:55px; text-align:center;cursor:pointer;width:190px;}
+.select_ul li a:hover{display:block;height:55px; text-align:center;cursor:pointer; background:#332721;}
+.select_ul li a.active{background:#332721; height: 55px;width:190px;}
+.bg {position: relative;height: 710px;overflow: hidden; top: 0px;}
+.bg li {position: absolute;	width: 740px;	height: 710px;	background-position: center 50%;	background-repeat: no-repeat;	background-size: cover;}
+.bg_1,
+.bg_4 { background-image: url(../images/bg1.jpg); }
+.bg_2 { background-image: url(../images/bg2.jpg); }
+.bg_3 { background-image: url(../images/bg3.jpg); }
+.logo a{	    color: #ffffff;display: block; height: 400px;left: 100px; position: absolute; top: 347px; width: 576px; z-index:10;}
+.fix_ceng{    height: 116px;left: 0px; position: absolute;top: 633px;width: 740px;}
+.s2{ height:87px; position:absolute; top:750px; left:0px; width:740px;}
+.apk{ width:260px; margin-left:335px; margin-right:20px;}
+.apk a img{margin-bottom:5px;}
+.group{ width:90px;}
+.group a img{margin-bottom:5px;}
+
+/*内容页面*/
+.container{ width:740px; margin:0 auto; }
+/*职业介绍*/
+.container_main{width:740px; position:relative; margin:0 auto;}
+/*图片轮播*/
+.trodution{width:740px; height:739px;  background:url(../images/phone_bg_01.jpg) no-repeat;  }
+.detail_context_pic{width:740px;overflow:hidden; height:739px; position:relative;}
+.line{height:1px; width:720px; border-bottom:1px solid #d1ac50; position:absolute; top:515px; left:46px; z-index: 1;}
+.detail_context_pic_top{width:740px;overflow:hidden;text-align:center;z-index:1;  }
+/*以下部分为改轮播css*/
+.swiper-slide{ background:url(../images/phone_top_bg_01.jpg);}
+.swiper-button-prev,.swiper-button-next{width: 21px; height: 14px; background-size:auto auto; background-position: center center; background-repeat: no-repeat;}
+.pagination-wrap{ width: 650px;height: 126px;position: absolute;left: 50%;-webkit-transform: translateX(-50%);transform: translateX(-50%); bottom:41px;overflow: hidden; z-index:10000;}
+.swiper-button-prev {background-image: url(../images/1_03.png);}
+.swiper-button-next {background-image: url(../images/1_05.png);}
+.swiper-pagination{
+	width: 740px;
+	height: 100%;
+	left: 2px;
+	-webkit-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+	z-index: 10000;
+}
+.swiper-pagination span{ -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; background-color: transparent;opacity: 1; width:130px; height:124px;background-image: url(../images/tab_img_04.png); cursor:pointer; float:left; display:block}
+.swiper-pagination-bullet-active span{display: block;}
+.swiper-pagination  i{ display: none;  width: 100%;  height: 100%; background-image: url(../images/tab_img_04.png); cursor:pointer;  z-index:10000;}
+.swiper-button-next, .swiper-button-prev{ top: 531px;}
+.swiper-button-next{  right: 46px;}
+.swiper-button-prev{ left: 46px;}
+.swiper-pagination  span.list_acitve{background-image:none;}
+.swiper-pagination  span:nth-of-type(1){background-position:-9px 0 ;}
+.swiper-pagination  span:nth-of-type(2){background-position:-149px 0 ;}
+.swiper-pagination  span:nth-of-type(3){background-position:-289px 0 ;}
+.swiper-pagination span:nth-of-type(4){background-position:-429px 0 ;}
+.swiper-pagination  span:nth-of-type(5){background-position:-569px 0 ;}
+.swiper-pagination span:nth-of-type(6){background-position:-709px 0 ;}
+.swiper-pagination  span:nth-of-type(7){background-position:-849px 0 ;}
+/*.swiper-pagination  span:nth-of-type(8){background-position:-849px 0 ;}*/
+.swiper-pagination  span:nth-of-type(1) i{background-position:-9px -128px;}
+.swiper-pagination  span:nth-of-type(2) i{background-position:-149px -128px;}
+.swiper-pagination  span:nth-of-type(3) i{background-position:-289px -128px;}
+.swiper-pagination span:nth-of-type(4) i{background-position:-429px -128px;}
+.swiper-pagination  span:nth-of-type(5) i{background-position:-569px -128px;}
+.swiper-pagination span:nth-of-type(6) i{background-position:-709px -128px;}
+.swiper-pagination  span:nth-of-type(7) i{background-position:-849px -128px;}
+/*.swiper-pagination  span:nth-of-type(8) i{background-position:-849px -124px;}*/
+.swiper-pagination  .swiper-pagination-bullet-active{ background-image:none;}
+.swiper-pagination  .swiper-pagination-bullet-active i{ display: block;}
+
+.content_zhi{ width:740px; background:url(../images/phone_bg_02.jpg) no-repeat; height:2044px; position:relative; margin:0 auto;z-index: 10;}
+.zhi_lun_video{    position: absolute;top: 1152px;left: 40px;width: 660px;height: 370px; }
+.zhi_lun_video1{  background:url(../images/phone_jing_zhanshi.jpg);}
+.zhi_lun_video2{  background:url(../images/phone_jing_gongjian.jpg);}
+.zhi_lun_video3{ background:url(../images/phone_jing_mofa.jpg);}
+.zhi_lun_video4{  background:url(../images/phone_jing_mushi.jpg);}
+.zhi_lun_video5{  background:url(../images/phone_jing_jijia.jpg);}
+.zhi_lun_video6{ background:url(../images/phone_jing_cike.jpg);}
+.zhi_lun_video7{ background:url(../images/phone_jing_wuniang.jpg);}
+
+.phone_img{position:absolute; top: 0px; left: 0px;}
+.main img{  width: 660px;height: 366px;left: 40px; position: absolute;top: 1636px;}
+.videoBtn{display: block;width: 165px;height:161px; cursor: pointer;position:absolute; top: 100px; left: 250px;}
+.next{width:33px; height:58px; top:1783px; left:0px; background:url(../images/phone_left_04.png);color:#000; line-height:30px;opacity:0.6;filter:alpha(opacity=60); position:absolute; cursor:pointer;}
+.next1{width:33px; height:58px; top:1783px; left:0px; background:url(../images/phone_left_04.png); color:#000; line-height:30px;opacity:0.9;filter:alpha(opacity=90); position:absolute;cursor:pointer;}
+.prev{width:33px; height:59px; top:1783px; right:0px; background:url(../images/phone_left_03.png); color:#000; line-height:30px;opacity:0.6;filter:alpha(opacity=60); position:absolute;cursor:pointer;}
+.prev1{width:33px; height:59px; top:1783px; right:0px; background:url(../images/phone_left_03.png); color:#000; line-height:30px;opacity:0.9;filter:alpha(opacity=90);position:absolute;cursor:pointer;}
+
+/*公共底部*/
+.phone_bottom{width: 740px; height:256px;background:url(../images/list_bg_07.jpg);margin:0 auto;position: relative;}
+.phone_list_img {position:absolute;top: 10px;left: 0px;}
+.phone_list_img img{float:left;}
+.footer1{position:absolute; top:105px; left: 0px;}
+.footer1_img1 img{float:left;}
+.footer1_img2 img{float:right;}

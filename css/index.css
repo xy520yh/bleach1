@@ -1,0 +1,121 @@
+﻿@charset "utf-8";
+body{ margin:0; padding:0; font:normal 100% "Microsoft YaHei",\5b8b\4f53,Arial, Helvetica, sans-serif; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,select,textarea,table,td{ margin:0; padding:0;}
+area{outline:none;}
+img{ border:0;}
+ol,ul,li{list-style:none;}
+a{ text-decoration:none; outline:none;}
+.clearfix:after {content:"";display:block;height:0;clear:both;} 
+.clearfix {zoom:1;}
+.pub_clr{clear:both;font-size:0;height:0;line-height:0;overflow:hidden;}
+.auto{left: 50%; -webkit-transform:translate(-50%,0); -moz-transform:translate(-50%,0); -ms-transform:translate(-50%,0); -o-transform:translate(-50%,0); transform:translate(-50%,0);}
+.box_justify{ display: -webkit-box; display: -moz-box; display: -o-box; display: -ms-box; -webkit-box-pack:justify; -moz-box-pack:justify; -o-box-pack:justify; -ms-box-pack:justify; box-pack:justify;}
+/*第一屏*/
+body{ max-width: 750px; width: 750px; margin: 0 auto; font-size: 14px; margin:0 auto;}
+.page1{width:750px; height:1068px;background: url(../images/phone_bg_01.jpg); position: relative;}
+.page1_ico_bg{width:750px; position: absolute; top: 803px; left: 0px; display: flex; justify-content:space-between; flex-wrap: wrap;}
+.logo{position: absolute; top:426px; left: 200px;}
+.input1 {height: 44px; width: 309px;position: absolute; top: 705px;left: 248px; border:1px solid #f00; }
+.text_content1{width:309px; height:44px; line-height:44px; background:none; font-size:24px; float:left; border:none; overflow:hidden; text-align:center; }
+.login_btn a{position: absolute;top: 839px; left: 733px; width: 122px; height: 42px; display: block;}
+/*第二屏*/
+.page2{width:750px; height:832px;background: url(../images/phone_bg_02.jpg); position: relative;}
+.da_cheng01{position:absolute; top:200px; left:70px; width:149px; height:105px;}
+.da_cheng02{position:absolute; top:200px; left:265px;width:149px; height:105px;}
+.da_cheng03{position:absolute; top:415px; left:70px;width:149px; height:105px; }
+.da_cheng04{position:absolute; top:415px; left:265px; width:149px; height:105px;}
+.details a{position:absolute; top:712px; left:94px; width:317px; height:58px; display: block; cursor: pointer; z-index:10;}
+
+/*第三屏*/
+.page3{width:750px; height:988px;background: url(../images/phone_bg_03.jpg); position: relative;}
+.bg_video{ position:absolute; bottom:220px; left: 110px; display:none;}
+.click_btn{position:absolute; bottom:148px; left: 220px; z-index:3;}
+.box_img{position:absolute; bottom:220px; left: 220px;z-index:3;}
+.text{position: absolute; top:144px; left: 41px;z-index:1;}
+.card_role{position: absolute; bottom:53px; left:0px;z-index:1;}
+
+
+/*第四屏*/
+.page4{width:750px; height:850px;background: url(../images/phone_bg_04.jpg); position: relative;}
+
+
+
+.game_roles{width:750px; height:800px; position:relative; }
+.game_roles .swiper-slide{width:640px; height:864px; position:relative;}
+.role_info{position:absolute; top:153px; left:30px; z-index:1000;width:496px; opacity:0; -webkit-transform:translate(-100%, 0); transform:translate(-100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s; z-index:99;}
+.role_jineng1 {width:426px; height:213px; position:relative; z-index:1000;top:240px;left:30px; background:url(../images/yinpin_01.png); opacity:0;  -webkit-transform:translate(-100%, 0); transform: translate(-100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.role_jineng2 {width:426px; height:213px;  position:relative; z-index:1000; top:240px;left:30px; background:url(../images/yinpin_02.png); opacity:0;  -webkit-transform:translate(-100%, 0); transform: translate(-100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.role_jineng3 {width:426px; height:213px;  position:relative; z-index:1000;top:240px; left:30px;background:url(../images/yinpin_03.png); opacity:0;  -webkit-transform:translate(-100%, 0); transform: translate(-100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.role_jineng4 {width:426px; height:213px; position:relative;  z-index:1000;top:240px;left:30px;background:url(../images/yinpin_04.png); opacity:0;  -webkit-transform:translate(-100%, 0); transform: translate(-100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.role_jineng5 {width:426px; height:213px;  position:relative;  z-index:1000;top:240px;left:30px; background:url(../images/yinpin_05.png); opacity:0;  -webkit-transform:translate(-100%, 0); transform: translate(-100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.page_4 .swiper-button-next{background:url(../images/right_row.png);width:72px; height:101px; position: absolute; top: 460px;right:150px;}
+.page_4 .swiper-button-prev{background:url(../images/left_row.png);width:72px; height:101px;position: absolute; top: 460px;left:150px;}
+.role_img1{position:absolute; top:0px; right:0px; opacity:0;  -webkit-transform:translate(100%, 0); transform: translate(100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.role_img2{position:absolute; top:0px; right:0px; opacity:0; -webkit-transform:translate(100%, 0); transform: translate(100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.role_img3{position:absolute; top:0px; right:0px; opacity:0; -webkit-transform:translate(100%, 0); transform: translate(100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.role_img4{position:absolute; top:0px; right:0px; opacity:0; -webkit-transform:translate(100%, 0); transform: translate(100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.role_img5{position:absolute; top:0px; right:0px; opacity:0; -webkit-transform:translate(100%, 0); transform: translate(100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.game_roles .swiper_dock_list{ width:520px; height:101px;position:relative;background:url(../images/small_btn_03.png) no-repeat; z-index:9999; margin:0 auto;}
+.game_roles .swiper_dock_list li:nth-child(1),.game_roles .swiper_dock_list li:nth-child(2),.game_roles .swiper_dock_list li:nth-child(3),.game_roles .swiper_dock_list li:nth-child(4),.game_roles .swiper_dock_list li:nth-child(5){width:111px; height:94px; cursor:pointer; }
+.game_roles .swiper_dock_list li:nth-child(1){position: absolute; top:5px; left:2px;}
+.game_roles .swiper_dock_list li:nth-child(2){position: absolute; top:5px; left:104px;}
+.game_roles .swiper_dock_list li:nth-child(3){position: absolute; top:5px; left:205px;}
+.game_roles .swiper_dock_list li:nth-child(4){position: absolute; top:5px; left:308px;}
+.game_roles .swiper_dock_list li:nth-child(5){position: absolute; top:5px; left:409px;}
+.game_roles .swiper_dock_list li img{display:none;}
+.game_roles .swiper_dock_list li .icon.on{display:block;}
+.game_roles .swiper-slide-active .role_info{-webkit-transform: translate(0, 0); transform: translate(0, 0); -webkit-transition: all 0.3s; transition: all 0.3s; opacity:1;}
+.game_roles .swiper-slide-active .role_img{opacity:1; -webkit-transform:translate(0, 0); transform: translate(0, 0); -webkit-transition: all 0.3s; transition: all 0.3s;}
+.game_roles .swiper-slide-active .role_jineng{opacity:1; -webkit-transform:translate(0, 0); transform: translate(0, 0); -webkit-transition: all 0.5s; transition: all 0.5s;}
+a.video{    position: absolute; top: 71px;left: 135px;width: 50px;height: 30px;display: block;cursor: pointer;}
+
+.swiper_list{position:absolute;bottom:90px;left:100px;}
+
+
+.main_center{width: 750px;position: relative;margin: 0 auto;}
+.main_tro{position: absolute; top:190px; left: 15px; width:708px; height: 544px; }
+.main_tro .page4_tro_swiper{width:708px; height:441px ;}
+.main_tro .swiper-pagination{position:relative;width:708px; display: flex;}
+.page4_pagination span{display:block;width:185px; height:107px;opacity:1; border-radius:0; background:none}
+.page4_pagination span.swiper-pagination-bullet-active{display:block;width:185px; height:107px; opacity:0.9;box-shadow:0 0 10px #000;}
+.phone_banner{    width: 710px; height: 532px;position: absolute;top: 777px;left: 16px;}
+.phone_banner .swiper-button-prev,.phone_banner .swiper-button-next{width: 71px; height: 122px; background-size:auto auto; background-position: center center; background-repeat: no-repeat;}
+.phone_banner .swiper-button-prev {background-image: url(../images/row_03.png);position: absolute; left: -15px; top:231px;} 
+.phone_banner .swiper-button-next {background-image: url(../images/row_05.png);position: absolute; right: -15px;top:231px;}
+/*第五屏*/
+
+
+
+.page5{ background:url(../images/phone_bg_05.jpg) center center no-repeat; height:556px; padding-top:100px;}
+#carousel {position:relative;	z-index:2;transform-style:preserve-3d;perspective:800px}
+#carousel img {position:absolute;left:50%;top:50%;margin-left:-310px;transition:transform .5s ease-in-out;/* box-shadow:8px 8px 20px rgba(0,0,0,.2); */	cursor:pointer}
+#bannerNav {	position:relative;	margin-top:47px;height:10px;padding:10px 0;text-align:center}
+#bannerNav ul li {cursor:pointer;overflow:hidden;display:inline-block;margin:0 10px}
+#bannerNav ul li a {margin:0 auto;display:block;width:12px;height:12px;	background:url(../images/active_hover1.png) no-repeat;font-size: 0;}
+#bannerNav ul li.on a {	background:url(../images/active_hover.png) no-repeat;width:68px}
+
+#carousel {height:400px}
+#carousel img {width:620px;border-radius: 10px;opacity: 0;}
+/*第六屏幕*/ 
+.page6{ background:url(../images/phone_bg_06.jpg) center center no-repeat; height:331px;}
+.icon_ico{position: absolute;top:190px; left: 40px;}
+.twitter_box{width:319px; height: 156px; position: absolute; top:124px;right:30px;border:1px solid #f00;}
+/*第七屏幕*/  
+.page7{width:100%;height:160px;background:#161212; padding-top:40px;}
+.page7 .flex{ text-align: center;}
+.mainShow{ width:750px; margin:0 auto;position:relative; height:auto;}
+.page7 div{margin-bottom: 8px;}
+/*返回顶部*/ 
+#top-back{ position:fixed; bottom:50px; right:50px; width:50px; height:50px; color:#fff; background-color:#000; text-align:center; line-height:50px; z-index:9;}
+#top-back a{color:#fff;}
+
+.box3 {width: 750px;padding-bottom:30px;margin:0 auto;}
+.box3 .swiper-slide {background-position: center;background-size: cover;width:620px;height: 368px;/*cursor:e-resize*/ margin:30px 0;}
+.box3 .swiper-slide img{width:620px;height: 368px;}
+
+
+.box3 .swiper-pagination-bullet {width:12px;height:12px;cursor:pointer;overflow:hidden;display:inline-block;margin:0 10px;opacity:1;	background:url(../images/active_hover1.png) no-repeat;font-size: 0;}
+.box3 .swiper-pagination-bullet-active {	background:url(../images/active_hover.png) no-repeat;width:68px;border-radius:0%;}
+
+
+

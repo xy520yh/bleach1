@@ -1,0 +1,54 @@
+body { margin: 0; padding: 0; font:14px/22px 'Microsoft Yahei'; color: #444; background-color:#eee;}
+div,p {margin: 0; padding: 0;}
+
+/* 滚动内容样式 */
+.scroll_main {
+	width: 296px; 
+	display: block;
+   position:absolute; top:476px; left:710px;
+	
+	
+}
+li{list-style:none; margin:0;padding:0;}
+ul.img_list li{float:left;}
+
+/* 滚动内容区样式 */
+.scroll_wrap {
+	width: 100%;
+	height: 374px;
+	position: relative;
+}
+/* 滚动内容样式 */
+.scroll_wrap .scroll_cont {
+	height: 100%;
+	overflow: hidden;
+}
+.scroll_wrap .scroll_cont p {
+	 height:77px; margin-bottom:10px;
+}
+.scroll_wrap .scroll_cont p img{margin-right:8px;}
+.scroll_wrap .scroll_cont p:last-child{margin-bottom:0px;}
+
+/* 滚动条 */
+.scroll_wrap .scroll_bar {
+	position: absolute;
+	top:0px;
+	right:24px;
+	width: 5px;
+	height: 100%;
+	background-color: #281e15; border-radius:5px;
+}
+/* 滚动块 */
+.scroll_wrap .scroll_slider {
+	position: absolute;
+	top: 0;
+	left: 0px;
+	width: 5px;
+	height: 48px;
+	background-color: #625b56;
+	border-radius:5px;
+	opacity: .5
+}
+.scroll_wrap .scroll_slider:hover{
+	opacity: 1
+}
