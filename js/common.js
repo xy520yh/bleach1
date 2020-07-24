@@ -20,6 +20,17 @@
         });
 	})();
 $(function(){
+    
+    $('.nav_ico').click(function(){
+        
+        $('#mySidenav').css('width','261px');
+   
+   })
+   
+    $('.closebtn').click(function(){
+       $('#mySidenav').css('width','0px');
+   
+      })
      //3d切换
     $('#carousel').carousel({
         curDisplay: 0, //默认索引
@@ -60,8 +71,8 @@ $(function(){
         }
     })
     //任务角色视频弹出
-    $(".video1").colorbox({iframe:true, innerWidth:800, innerHeight:450});	
-    $(".cpModal_01").colorbox({iframe:true, innerWidth:800, innerHeight:450});	
+    $(".video1").colorbox({iframe:true, innerWidth:600, innerHeight:338});	
+    $(".cpModal_01").colorbox({iframe:true, innerWidth:600, innerHeight:338});	
 
 
     //点击盒子视频弹出
@@ -102,10 +113,10 @@ $('.login_btn').click(function(){
 console.log($('.text_content1').val())
     if($('.text_content1').val()==''){
         $('.inline').attr("href","images/input_lose.jpg");
-        $(".inline").colorbox({width:"800px",height:"450px"});
+        $(".inline").colorbox({width:"600px",height:"338px"});
     }else{
         $('.inline').attr("href","#inline_content");
-        $(".inline").colorbox({inline:true, width:"800px",height:"450px"});
+        $(".inline").colorbox({inline:true, width:"600px",height:"338px"});
         
     }
 })

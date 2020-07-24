@@ -11,27 +11,37 @@
 <link href="css/roll.css" rel="stylesheet" type="text/css">
 <link href="css/colorbox.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="css/index.css" />
+<link rel="stylesheet" type="text/css" href="css/scrollbar.css">
 <!-- <link href="https://cp.futuregame.com.tw/pre-order/favicon.ico" rel="shortcut icon" /> -->
 </head>
 <body>
 	<!--第一屏幕 --> 
-	<div class="page1">
+	<div class="page1" id="section1">
 		<div id="mySidenav" class="sidenav">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="javascript:void(0)" class="closebtn">&times;</a>
 			<a href="index.html" class="nav_01 on"></a> 
 				<a href="#section2" class="nav_02"></a> 
 				<a href="#section4" class="nav_03"></a> 
 				<a href="#section5" class="nav_04"></a> 
 				<a href="#section6" class="nav_05"></a> 
 		  </div>
-		  <div class="nav_ico" onclick="openNav()">
+		  <div class="nav_ico">
 			  <img src="images/nav_bg_01.png">
 		  </div>
 		<div class="logo animated  fadeInDown"><a href="index.html"><img src="images/logo.png"></a></div>
 		<div class="input1" >
             <P ><input name="" type="text"  class="text_content1"/></P>
         </div>
-        <div class="login_btn"><a class="inline"></a></div>
+		<div class="login_btn"><a class="inline"></a></div>
+		<div style='display:none'>
+            <div id='inline_content'>
+                <a href="#" class="one"><img src="images/btn_gg.png"></a>
+                <a href="#" class="two"><img src="images/btn_app.png"></a>
+                <a href="#" class="three"><img src="images/btn_line.png"></a>
+                <a href="#" class="four"><img src="images/btn_twitter.png"></a>
+            
+            </div>
+		</div> 
         <div class="page1_ico_bg">
 			<a href="#" target="_blank" class="one1"><img src="images/phone_btn_gg.png"/></a>
 			<a href="#" target="_blank" class="one2"><img src="images/phone_btn_app.png" /></a>
@@ -40,7 +50,7 @@
         </div>
 	</div>
 	<!--第二屏幕 --> 
-	<div class="page2">
+	<div class="page2" id="section2">
 		<div class="da_cheng01"><img src="images/dacheng.png" ></div>
 		<div class="da_cheng02"><img src="images/dacheng.png" ></div>
 		<div class="da_cheng03"><img src="images/dacheng.png" ></div>
@@ -48,7 +58,7 @@
 		<div class="details"><a class="cpModal_01" href="images/detail_img.jpg"></a></div> 
 	</div>
 	<!--第三屏幕 --> 
-	<div class="page3">
+	<div class="page3" id="section3">
 		<div class="box_video">
 			<div class="click_btn"><img src="images/box_btn.png"></div>
 			<div class="text"><img src="images/text.png"></div>
@@ -57,23 +67,27 @@
 				<img src="images/role_01.png">
 			</div>
 		</div>
-		<div class="scroll_main">
-			<div class="scroll_wrap">
-				<div class="scroll_cont">
-					<p><a href="images/fot_pic1.png" ><img src="images/imga_01.png"></a><img src="images/imga_02.png"><img src="images/imga_03.png"></p>
-					<p><img src="images/imga_04.png"><img src="images/imga_05.png"><img src="images/imga_06.png"></p>
-					<p><img src="images/imga_07.jpg"><img src="images/imga_08.jpg"><img src="images/imga_09.jpg"></p>
-					<p><img src="images/imga_10.jpg"><img src="images/imga_11.jpg"><img src="images/imga_12.jpg"></p>
-					<p><img src="images/imga_01.png"><img src="images/imga_02.png"><img src="images/imga_03.png"></p>
-				</div>
-				<div class="scroll_bar">
-					<div class="scroll_slider"></div>
-				</div>
-			</div> 
-		</div>
+		<div class="tcmain">
+
+            <div id="tc-wrapper1">
+                <dl class="num-list">
+                    <dt><img src="images/imga_01.png"><img src="images/imga_02.png"><img src="images/imga_03.png"></dt>
+                    <dt><img src="images/imga_01.png"><img src="images/imga_02.png"><img src="images/imga_03.png"></dt>
+                    <dt><img src="images/imga_01.png"><img src="images/imga_02.png"><img src="images/imga_03.png"></dt>
+                    <dt><img src="images/imga_01.png"><img src="images/imga_02.png"><img src="images/imga_03.png"></dt>
+					<dt><img src="images/imga_01.png"><img src="images/imga_02.png"><img src="images/imga_03.png"></dt>
+					<dt><img src="images/imga_01.png"><img src="images/imga_02.png"><img src="images/imga_03.png"></dt>
+					<dt><img src="images/imga_01.png"><img src="images/imga_02.png"><img src="images/imga_03.png"></dt>
+                  
+                </dl>
+            </div>
+
+    </div>
+
+	
 	</div>
 	<!--第四屏幕 --> 
-	<div class="page4">
+	<div class="page4" id="section4">
 		<div class="main_center">
 			<div class="game_roles">
 				<div class="swiper-container roles_wrap">
@@ -147,7 +161,7 @@
 		</div>
 	</div>
 	<!--第五屏幕 --> 
-	 <div class="page5">
+	 <div class="page5" id="section5">
 		<div class="main_center">
 			<div class="swiper-container box3">
 				<div class="swiper-wrapper">
@@ -163,7 +177,7 @@
 		</div>
 	</div> 
 	<!--第六屏幕 --> 
-	<div class="page6">
+	<div class="page6" id="section6">
 	  <div class="main_center">
 			<div class='twitter_box'>
 				<iframe src="https://twitter.com/iryu_cone" style="border: medium none; overflow: hidden; width:100%; height:100%;" allowtransparency="true" frameborder="0" ></iframe>
@@ -203,5 +217,23 @@
     });
 	
 	</script>
+	
+<script type="text/javascript" src="js/iScroll.js"></script> 
+<script type="text/javascript">
+
+var myScroll1,myScroll2;
+function loaded() {
+    myScroll1 = new iScroll('tc-wrapper1', {
+                scrollbarClass: 'myScrollbar' ,
+                hScrollbar:false,
+                vScroll:true,
+                hideScrollbar: false //是否隐藏滚动条  
+            });
+  
+}
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+document.addEventListener('DOMContentLoaded', loaded, false);
+/*显示弹层层调用show方法时重新调用new iScroll()*/
+</script>
 </body>
 </html>

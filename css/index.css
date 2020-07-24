@@ -37,7 +37,7 @@ body{ max-width: 750px; width: 750px; font-size: 14px; margin:0 auto;}
 .game_roles{width:750px; height:800px; position:relative; }
 .game_roles .swiper-slide{width:640px; height:864px; position:relative;}
 .role_info{position:absolute; top:153px; left:30px; z-index:1000;width:496px; opacity:0; -webkit-transform:translate(-100%, 0); transform:translate(-100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s; z-index:99;}
-.role_jineng1 {width:426px; border:1px solid #f00; height:213px; position:relative; z-index:1000;top:240px;margin-left:30px; background:url(../images/yinpin_01.png); opacity:0;  -webkit-transform:translate(-100%, 0); transform: translate(-100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.role_jineng1 {width:426px;  height:213px; position:relative; z-index:1000;top:240px;margin-left:30px; background:url(../images/yinpin_01.png); opacity:0;  -webkit-transform:translate(-100%, 0); transform: translate(-100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
 .role_jineng2 {width:426px; height:213px;  position:relative; z-index:1000; top:240px;margin-left:30px; background:url(../images/yinpin_02.png); opacity:0;  -webkit-transform:translate(-100%, 0); transform: translate(-100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
 .role_jineng3 {width:426px; height:213px;  position:relative; z-index:1000;top:240px; margin-left:30px;background:url(../images/yinpin_03.png); opacity:0;  -webkit-transform:translate(-100%, 0); transform: translate(-100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
 .role_jineng4 {width:426px; height:213px; position:relative;  z-index:1000;top:240px;margin-left:30px;background:url(../images/yinpin_04.png); opacity:0;  -webkit-transform:translate(-100%, 0); transform: translate(-100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
@@ -89,7 +89,7 @@ a.video{    position: absolute; top: 71px;left: 135px;width: 50px;height: 30px;d
 #top-back a{color:#fff;}
 
 
-.nav_ico{position: absolute; left: 0;top:0;}
+.nav_ico{position: absolute; left: 0;top:0;width:79px; height: 79px; cursor: pointer;;}
 
 .sidenav  a{  display:block; height:27px;}
 .sidenav  a.nav_01{position:absolute; top:9px; left:14px;width:99px; background:url(../images/nav_01.png) no-repeat;}
@@ -104,10 +104,10 @@ a.video{    position: absolute; top: 71px;left: 135px;width: 50px;height: 30px;d
 .sidenav  a.nav_05:hover,.sidenav  a.nav_05.on{ background:url(../images/nav_05_hover.png) no-repeat;}
 
 .sidenav {
-    height: 316px;
-    width: 261px;
+    height: 316px; 
+    width: 0px;
     position: fixed;
-    z-index: 1; display: none;
+    z-index: 111111;
     top: 0;
     left: 80px;
    background: url(../images/nav_bg_02.png) no-repeat; 
@@ -141,4 +141,18 @@ a.video{    position: absolute; top: 71px;left: 135px;width: 50px;height: 30px;d
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+#inline_content{ background:url(../images/input_cg.jpg);width:790px; height: 416px; overflow: hidden; position:relative;}
+.one{position:absolute; bottom:10px;left:10px; }
+.two{position:absolute; bottom:10px; left:210px;}
+.three{position:absolute; bottom:10px; left:395px;}
+.four{position:absolute; bottom:10px;left:590px;}
+
+
+
+.tcmain{width:264px; padding-top:10px;height:357px; background:url(../images/scroll_bg_03.png); position:absolute;top:473px;right:20px;box-sizing:border-box;text-align:center; z-index:111;}
+
+#tc-wrapper1{ height: 336px; position: relative;width:90%;margin:0 auto;}
+.tc-content01 .num-list{text-align:left;}
+.tc-content01 .num-list dt{margin-bottom:4px; height:66px; border:1px solid #f00;}
 
