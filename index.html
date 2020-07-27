@@ -6,42 +6,82 @@
 <meta name="keywords" content=""/>
 <meta name="description" content="">
 <title>日文死神</title>
-<link href="css/swiper.3.4.1.css" rel="stylesheet" type="text/css">
-<link href="css/animate.css" rel="stylesheet" type="text/css">
-<link href="css/roll.css" rel="stylesheet" type="text/css">
-<link href="css/colorbox.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css"  href="css/colorbox.css">
 <link rel="stylesheet" type="text/css" href="css/index.css" />
-<link rel="stylesheet" type="text/css" href="css/scrollbar.css">
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
 <!-- <link href="https://cp.futuregame.com.tw/pre-order/favicon.ico" rel="shortcut icon" /> -->
 </head>
 <body>
+		<!--点击发送信息没input输入-->
+	<div class="tc_wrong">    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+	</div>
+	<!--点击发送信息没input没有输入-->
+	<div class="tc_loser" >    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+	</div>
+
+	<div class="tc_loser_red">    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+	</div>
+	<!--点击发送信息input输入内容-->
+	<div class="tc_succes">    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+		<div class="tc_ico">
+			<a href="#" style="margin-right:10px;"> <img src="images/tc_lose_img1.png"/></a><a href="#"><img src="images/tc_lose_img2.png"/></a>
+		</div>
+	</div>
+	<!--达成部分下面详细信息-->
+	<div class="tc_detail" >    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+	</div>
+	<!--没有登录twitter提示-->
+	<div class="tc_twitter" >    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+		<div class="btn_twitter">
+			<img src="images/twitter.png"/>
+		</div>
+	</div>
+	<!--今日达到上限提示-->
+	<div class="tc_topvalue">    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+	</div>
+	<!--需要确认提示-->
+	<div class="tc_confirm" >    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+		<div class="btn_confirm">
+			<img src="images/tc_btn_sure.png"/><img src="images/tc_btn_quxiao.png"/>
+		</div>
+	</div>
+
+	<!--需要确认提示1-->
+	<div class="tc_confirm_1" >    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+		<div class="btn_confirm">
+			<img src="images/tc_btn_sure.png"/><img src="images/tc_btn_quxiao.png"/>
+		</div>
+	</div>
+
+	<div class="masked"></div>
+	<div class="login_box">    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+		<div class="login_content" >
+			<div  class="login_left"><img src="images/small_tip1.png"/><img src="images/card_01.png"/></div>
+			<div  class="login_center"><img src="images/small_tip2.png"/><img src="images/card_02.png"/></div>
+			<div  class="login_right">
+				<p><a href="#" ><img src="images/tc_ico_sure.png"/></a></p>
+				<p><a href="#"><img src="images/tc_ico_change.png"/></a></p>
+			</div>
+
+		</div>
+	</div>
 	<!--第一屏幕 --> 
 	<div class="page1" id="section1">
-		<div id="mySidenav" class="sidenav">
-			<a href="javascript:void(0)" class="closebtn">&times;</a>
-			<a href="index.html" class="nav_01 on"></a> 
-				<a href="#section2" class="nav_02"></a> 
-				<a href="#section4" class="nav_03"></a> 
-				<a href="#section5" class="nav_04"></a> 
-				<a href="#section6" class="nav_05"></a> 
-		  </div>
-		  <div class="nav_ico">
-			  <img src="images/nav_bg_01.png">
-		  </div>
 		<div class="logo animated  fadeInDown"><a href="index.html"><img src="images/logo.png"></a></div>
 		<div class="input1" >
             <P ><input name="" type="text"  class="text_content1"/></P>
         </div>
-		<div class="login_btn"><a class="inline"></a></div>
-		<div style='display:none'>
-            <div id='inline_content'>
-                <a href="#" class="one"><img src="images/btn_gg.png"></a>
-                <a href="#" class="two"><img src="images/btn_app.png"></a>
-                <a href="#" class="three"><img src="images/btn_line.png"></a>
-                <a href="#" class="four"><img src="images/btn_twitter.png"></a>
-            
-            </div>
-		</div> 
+		<div class="login_btn"><a class="send" href="javascript:void(0)"></a></div>
         <div class="page1_ico_bg">
 			<a href="#" target="_blank" class="one1"><img src="images/phone_btn_gg.png"/></a>
 			<a href="#" target="_blank" class="one2"><img src="images/phone_btn_app.png" /></a>
@@ -55,7 +95,7 @@
 		<div class="da_cheng02"><img src="images/dacheng.png" ></div>
 		<div class="da_cheng03"><img src="images/dacheng.png" ></div>
 		<div class="da_cheng04"><img src="images/dacheng.png" ></div> 
-		<div class="details"><a class="cpModal_01" href="images/detail_img.jpg"></a></div> 
+		<div class="details"><a href="javascript:void(0)"></a></div> 
 	</div>
 	<!--第三屏幕 --> 
 	<div class="page3" id="section3">
@@ -67,25 +107,25 @@
 				<img src="images/role_01.png">
 			</div>
 		</div>
-		<div class="tcmain">
-
-            <div id="tc-wrapper1">
-                <dl class="num-list">
-                    <dt><img src="images/imga_01.png"><img src="images/imga_01.png"><img src="images/imga_01.png"></dt>
-                    <dt><img src="images/imga_01.png"><img src="images/imga_02.png"><img src="images/imga_03.png"></dt>
-                    <dt><img src="images/imga_01.png"><img src="images/imga_02.png"><img src="images/imga_03.png"></dt>
-                    <dt><img src="images/imga_01.png"><img src="images/imga_02.png"><img src="images/imga_03.png"></dt>
-					<dt><img src="images/imga_01.png"><img src="images/imga_02.png"><img src="images/imga_03.png"></dt>
-					<dt><img src="images/imga_01.png"><img src="images/imga_02.png"><img src="images/imga_03.png"></dt>
-					<dt><img src="images/imga_03.png"><img src="images/imga_03.png"><img src="images/imga_03.png"></dt>
-                  
-                </dl>
-            </div>
-
+		<div class="scrollwrap">
+			<div class="swiper-container scrollone">
+				<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<p><img src="images/1.png"><img src="images/2.png"><img src="images/3.png"></p>
+					<p><img src="images/4.png"><img src="images/5.png"><img src="images/6.png"></p>
+					<p><img src="images/7.png"><img src="images/8.png"><img src="images/9.png"></p>
+					<p><img src="images/10.png"><img src="images/11.png"><img src="images/12.png"></p>
+					<p><img src="images/13.png"><img src="images/14.png"><img src="images/15.png"></p>
+					<p><img src="images/16.png"><img src="images/17.png"><img src="images/18.png"></p>
+					<p><img src="images/19.png"><img src="images/20.png"><img src="images/21.png"></p>
+					<p><img src="images/22.png"><img src="images/23.png"></p>
+				</div>
+				</div>
+				<!-- Add Scroll Bar -->
+				<div class="swiper-scrollbar"></div>
+			</div>
+		  </div>
     </div>
-
-	
-	</div>
 	<!--第四屏幕 --> 
 	<div class="page4" id="section4">
 		<div class="main_center">
@@ -166,10 +206,10 @@
 			<div class="swiper-container box3">
 				<div class="swiper-wrapper">
 				  <div class="swiper-slide"><img src="images/fot_pic1.png" data-url="#"> </div>
-				  <div class="swiper-slide"><img src="images/fot_pic1.png" data-url="#"> </div>
-				  <div class="swiper-slide"><img src="images/fot_pic1.png" data-url="#"></div>
-				  <div class="swiper-slide"><img src="images/fot_pic1.png" data-url="#"></div>
-				  <div class="swiper-slide"><img src="images/fot_pic1.png" data-url="#"> </div>
+				  <div class="swiper-slide"><img src="images/fot_pic2.png" data-url="#"> </div>
+				  <div class="swiper-slide"><img src="images/fot_pic3.png" data-url="#"></div>
+				  <div class="swiper-slide"><img src="images/fot_pic4.png" data-url="#"></div>
+				  <div class="swiper-slide"><img src="images/fot_pic5.png" data-url="#"> </div>
 				</div>
 				<div class="swiper-pagination"></div>
 			  </div>
@@ -195,15 +235,11 @@
 		   <div><img src="images/footer_01.jpg"></div>
 		   <div><img src="images/footer_02.jpg"></div>
 	 </div>
-
 	<div id="top-back"><a href="#section1">頂部</a></div> 
 	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
-	<script type="text/javascript" src="js/qiehuan.js"></script>
-	 <script  type="text/javascript" src="js/jquery.colorbox.js"></script>
-	<script type="text/javascript" src="js/swiper.3.4.1.js"></script> 
-	<script type="text/javascript" src="js/scrollbar.js"></script>
-<script type="text/javascript" src="js/common.js"></script> 
-	<script type="text/javascript" src="js/slider.js"></script> 
+	<script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+	<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>  
 	<script>
 		var swiper = new Swiper('.box3', {
         effect: 'coverflow',
@@ -213,27 +249,17 @@
 		pagination: '.swiper-pagination',
         paginationClickable: true,
         loop : true,
-        initialSlide :1
+        initialSlide :0
     });
-	
+		var swiper1 = new Swiper('.scrollone', {
+		direction: 'vertical',
+		slidesPerView: 'auto',
+		freeMode: true,
+		scrollbar: {
+			el: '.swiper-scrollbar',
+		},
+		mousewheel: true,
+		});
 	</script>
-	
-<script type="text/javascript" src="js/iScroll.js"></script> 
-<script type="text/javascript">
-
-var myScroll1,myScroll2;
-function loaded() {
-    myScroll1 = new iScroll('tc-wrapper1', {
-                scrollbarClass: 'myScrollbar' ,
-                hScrollbar:false,
-                vScroll:true,
-                hideScrollbar: false //是否隐藏滚动条  
-            });
-  
-}
-document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
-document.addEventListener('DOMContentLoaded', loaded, false);
-/*显示弹层层调用show方法时重新调用new iScroll()*/
-</script>
 </body>
 </html>
