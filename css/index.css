@@ -1,5 +1,39 @@
 ﻿@charset "utf-8";
 
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #000;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+} 
+/* body{ margin:0; padding:0; font:normal 100% "Microsoft YaHei",\5b8b\4f53,Arial, Helvetica, sans-serif; -webkit-tap-highlight-color: rgba(0,0,0,0);} */
+div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,select,textarea,table,td{ margin:0; padding:0;}
+area{outline:none;}
+img{ border:0;}
+ol,ul,li{list-style:none;}
+a{ text-decoration:none; outline:none;}
+
+/*
+.clearfix:after {content:"";display:block;height:0;clear:both;} 
+.clearfix {zoom:1;}
+ .pub_clr{clear:both;font-size:0;height:0;line-height:0;overflow:hidden;}
+.auto{left: 50%; -webkit-transform:translate(-50%,0); -moz-transform:translate(-50%,0); -ms-transform:translate(-50%,0); -o-transform:translate(-50%,0); transform:translate(-50%,0);}
+.box_justify{ display: -webkit-box; display: -moz-box; display: -o-box; display: -ms-box; -webkit-box-pack:justify; -moz-box-pack:justify; -o-box-pack:justify; -ms-box-pack:justify; box-pack:justify;} */
+
+
+
+.closed{position: absolute;top:6px; right:8px;}
+.closed img{transition: all 0.3s;}
+.closed img:hover{transform:rotate(90deg);}
 /*第一屏*/
 body{ max-width: 750px; width: 750px; font-size: 14px; margin:0 auto;}
 .page1{width:750px; height:1068px;background: url(../images/phone_bg_01.jpg); position: relative;}
