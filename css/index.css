@@ -141,9 +141,9 @@ a.video{    position: absolute; top: 71px;left: 135px;width: 50px;height: 30px;d
 
 
 
-.scrollone  {width:230px;height: 329px;}
+/* .scrollone  {width:230px;height: 329px;}
 .scrollone .swiper-slide {height: auto; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0x;}
-.scrollone .swiper-slide p img{margin-right:6px;margin-bottom:3px;}
+.scrollone .swiper-slide p img{margin-right:6px;margin-bottom:3px;} */
 .game_roles .swiper_dock_list{ width:520px; height:101px;position:relative;background:url(../images/small_btn_03.png) no-repeat; z-index:10; margin:0 auto;}
 
 /* .nav_ico{position: absolute; left: 0;top:0;width:79px; height: 79px; cursor: pointer;;}
