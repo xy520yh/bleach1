@@ -1,5 +1,33 @@
 ﻿@charset "utf-8";
-
+body{ margin:0; padding:0; font:normal 100% "Microsoft YaHei",\5b8b\4f53,Arial, Helvetica, sans-serif; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,select,textarea,table,td{ margin:0; padding:0;}
+area{outline:none;}
+img{ border:0;}
+ol,ul,li{list-style:none;}
+a{ text-decoration:none; outline:none;}
+.clearfix:after {content:"";display:block;height:0;clear:both;} 
+.clearfix {zoom:1;}
+.pub_clr{clear:both;font-size:0;height:0;line-height:0;overflow:hidden;}
+.auto{left: 50%; -webkit-transform:translate(-50%,0); -moz-transform:translate(-50%,0); -ms-transform:translate(-50%,0); -o-transform:translate(-50%,0); transform:translate(-50%,0);}
+.box_justify{ display: -webkit-box; display: -moz-box; display: -o-box; display: -ms-box; -webkit-box-pack:justify; -moz-box-pack:justify; -o-box-pack:justify; -ms-box-pack:justify; box-pack:justify;}
+.closed{position: absolute;top:6px; right:8px;}
+.closed img{transition: all 0.3s;}
+.closed img:hover{transform:rotate(90deg);}
+/*第一屏*/
+body{ max-width: 750px; width: 750px; font-size: 14px; margin:0 auto;}
+.page1{width:750px; height:1068px;background: url(../images/phone_bg_01.jpg); position: relative;}
+.page1_ico_bg{width:750px; position: absolute; top: 803px; left: 0px; display: flex; justify-content:space-between; flex-wrap: wrap;}
+.logo{position: absolute; top:426px; left: 200px;}
+.input1 {height: 44px; width: 309px;position: absolute; top: 705px;left: 248px; }
+.text_content1{width:309px; height:44px; line-height:44px; background:none; font-size:24px; float:left; border:none; overflow:hidden; text-align:center; }
+.login_btn a{position: absolute;top: 699px; left: 613px; width: 122px; height: 42px; display: block;}
+/*第二屏*/
+.page2{width:750px; height:832px;background: url(../images/phone_bg_02.jpg); position: relative;}
+.da_cheng01{position:absolute; top:200px; left:70px; width:149px; height:105px;}
+.da_cheng02{position:absolute; top:200px; left:265px;width:149px; height:105px;}
+.da_cheng03{position:absolute; top:415px; left:70px;width:149px; height:105px; }
+.da_cheng04{position:absolute; top:415px; left:265px; width:149px; height:105px;}
+.details a{position:absolute; top:712px; left:94px; width:317px; height:58px; display: block; cursor: pointer; z-index:10;}
 /*第三屏*/
 
 .click_btn{position:absolute; bottom:148px; left: 220px; z-index:3;}
