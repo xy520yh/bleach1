@@ -1,0 +1,230 @@
+﻿@charset "utf-8";
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.input1 p{margin:0; padding:0;}
+/*body{ margin:0; padding:0; font:normal 100% "Microsoft YaHei",\5b8b\4f53,Arial, Helvetica, sans-serif; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+ div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,select,textarea,table,td{ margin:0; padding:0;}.clearfix:after {content:"";display:block;height:0;clear:both;} 
+.clearfix {zoom:1;}
+.pub_clr{clear:both;font-size:0;height:0;line-height:0;overflow:hidden;}
+.auto{left: 50%; -webkit-transform:translate(-50%,0); -moz-transform:translate(-50%,0); -ms-transform:translate(-50%,0); -o-transform:translate(-50%,0); transform:translate(-50%,0);}
+.box_justify{ display: -webkit-box; display: -moz-box; display: -o-box; display: -ms-box; -webkit-box-pack:justify; -moz-box-pack:justify; -o-box-pack:justify; -ms-box-pack:justify; box-pack:justify;} */
+area{outline:none;}
+img{ border:0;}
+ol,ul,li{list-style:none;}
+a{ text-decoration:none; outline:none;}
+.closed{position: absolute;top:6px; right:8px;}
+.closed img{transition: all 0.3s;}
+.closed img:hover{transform:rotate(90deg);}
+/*第一屏*/
+body{ max-width: 750px; width: 750px; font-size: 14px; margin:0 auto;}
+.page1{width:750px; height:1068px;background: url(../images/phone_bg_01.jpg); position: relative;}
+.page1_ico_bg{width:750px; position: absolute; top: 803px; left: 0px; display: flex; justify-content:space-between; flex-wrap: wrap;}
+.logo{position: absolute; top:426px; left: 200px;}
+.input1 {height: 44px; width: 309px;position: absolute; top: 705px;left: 248px; }
+.text_content1{width:309px; height:44px; line-height:44px; background:none; font-size:24px; float:left; border:none; overflow:hidden; text-align:center; }
+.login_btn a{position: absolute;top: 699px; left: 613px; width: 122px; height: 42px; display: block;}
+/*第二屏*/
+.page2{width:750px; height:832px;background: url(../images/phone_bg_02.jpg); position: relative;}
+.da_cheng01{position:absolute; top:200px; left:70px; width:149px; height:105px;}
+.da_cheng02{position:absolute; top:200px; left:265px;width:149px; height:105px;}
+.da_cheng03{position:absolute; top:415px; left:70px;width:149px; height:105px; }
+.da_cheng04{position:absolute; top:415px; left:265px; width:149px; height:105px;}
+.details a{position:absolute; top:712px; left:94px; width:317px; height:58px; display: block; cursor: pointer; z-index:10;}
+/*第三屏*/
+
+.click_btn{position:absolute; bottom:148px; left: 220px; z-index:3;}
+.box_img{position:absolute; bottom:220px; left: 220px;z-index:3;}
+.text{position: absolute; top:144px; left: 41px;z-index:1;}
+
+/*第四屏*/
+.main_center{width: 750px;position: relative;margin: 0 auto;}
+.page4{width:750px; height:850px;background: url(../images/phone_bg_04.jpg); position: relative;margin-top:-1px;}
+.game_roles{width:750px; height:800px; position:relative; }
+.game_roles .swiper-slide{width:640px; height:864px; position:relative;}
+.role_info{position:absolute; top:153px; left:30px; z-index:1000;width:496px; opacity:0; -webkit-transform:translate(-100%, 0); transform:translate(-100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s; z-index:99;}
+.role_jineng1 {width:426px;  height:213px; position:relative; z-index:1000;top:240px;margin-left:30px; background:url(../images/yinpin_01.png); opacity:0;  -webkit-transform:translate(-100%, 0); transform: translate(-100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.role_jineng2 {width:426px; height:213px;  position:relative; z-index:1000; top:240px;margin-left:30px; background:url(../images/yinpin_02.png); opacity:0;  -webkit-transform:translate(-100%, 0); transform: translate(-100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.role_jineng3 {width:426px; height:213px;  position:relative; z-index:1000;top:240px; margin-left:30px;background:url(../images/yinpin_03.png); opacity:0;  -webkit-transform:translate(-100%, 0); transform: translate(-100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.role_jineng4 {width:426px; height:213px; position:relative;  z-index:1000;top:240px;margin-left:30px;background:url(../images/yinpin_04.png); opacity:0;  -webkit-transform:translate(-100%, 0); transform: translate(-100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.role_jineng5 {width:426px; height:213px;  position:relative;  z-index:1000;top:240px;margin-left:30px; background:url(../images/yinpin_05.png); opacity:0;  -webkit-transform:translate(-100%, 0); transform: translate(-100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.page_4 .swiper-button-next{background:url(../images/right_row.png);width:72px; height:101px; position: absolute; top: 460px;right:150px;}
+.page_4 .swiper-button-prev{background:url(../images/left_row.png);width:72px; height:101px;position: absolute; top: 460px;left:150px;}
+.role_img1{position:absolute; top:0px; right:0px; opacity:0;  -webkit-transform:translate(100%, 0); transform: translate(100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.role_img2{position:absolute; top:0px; right:0px; opacity:0; -webkit-transform:translate(100%, 0); transform: translate(100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.role_img3{position:absolute; top:0px; right:0px; opacity:0; -webkit-transform:translate(100%, 0); transform: translate(100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.role_img4{position:absolute; top:0px; right:0px; opacity:0; -webkit-transform:translate(100%, 0); transform: translate(100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+.role_img5{position:absolute; top:0px; right:0px; opacity:0; -webkit-transform:translate(100%, 0); transform: translate(100%, 0); -webkit-transition:all 0.3s; transition:all 0.3s;}
+
+.game_roles .swiper_dock_list li:nth-child(1),.game_roles .swiper_dock_list li:nth-child(2),.game_roles .swiper_dock_list li:nth-child(3),.game_roles .swiper_dock_list li:nth-child(4),.game_roles .swiper_dock_list li:nth-child(5){width:111px; height:94px; cursor:pointer; }
+.game_roles .swiper_dock_list li:nth-child(1){position: absolute; top:5px; left:2px;}
+.game_roles .swiper_dock_list li:nth-child(2){position: absolute; top:5px; left:104px;}
+.game_roles .swiper_dock_list li:nth-child(3){position: absolute; top:5px; left:205px;}
+.game_roles .swiper_dock_list li:nth-child(4){position: absolute; top:5px; left:308px;}
+.game_roles .swiper_dock_list li:nth-child(5){position: absolute; top:5px; left:409px;}
+.game_roles .swiper_dock_list li img{display:none;}
+.game_roles .swiper_dock_list li .icon.on{display:block;}
+.game_roles .swiper-slide-active .role_info{-webkit-transform: translate(0, 0); transform: translate(0, 0); -webkit-transition: all 0.3s; transition: all 0.3s; opacity:1;}
+.game_roles .swiper-slide-active .role_img{opacity:1; -webkit-transform:translate(0, 0); transform: translate(0, 0); -webkit-transition: all 0.3s; transition: all 0.3s;}
+.game_roles .swiper-slide-active .role_jineng{opacity:1; -webkit-transform:translate(0, 0); transform: translate(0, 0); -webkit-transition: all 0.5s; transition: all 0.5s;}
+a.video{    position: absolute; top: 71px;left: 135px;width: 50px;height: 30px;display: block;cursor: pointer;}
+.swiper_list{position:absolute;bottom:90px;left:100px;}
+/* .main_tro{position: absolute; top:190px; left: 15px; width:708px; height: 544px; }
+.main_tro .page4_tro_swiper{width:708px; height:441px ;}
+.main_tro .swiper-pagination{position:relative;width:708px; display: flex;}
+.page4_pagination span{display:block;width:185px; height:107px;opacity:1; border-radius:0; background:none}
+.page4_pagination span.swiper-pagination-bullet-active{display:block;width:185px; height:107px; opacity:0.9;box-shadow:0 0 10px #000;}
+ */
+/*第五屏*/
+.page5{ background:url(../images/phone_bg_05.jpg) center center no-repeat; height:556px; padding-top:100px;margin-top:-1px;}
+.box3 {width: 750px;padding-bottom:46px;margin:0 auto;}
+.box3 .swiper-slide {background-position: center;background-size: cover;width:620px;height: 368px;/*cursor:e-resize*/ margin:30px 0;}
+.box3 .swiper-slide img{width:620px;height: 368px;}
+.box3 .swiper-pagination-bullet {width:12px;height:12px;cursor:pointer;overflow:hidden;display:inline-block;margin:0 10px;opacity:1;	background:url(../images/active_hover1.png) no-repeat;font-size: 0;}
+.box3 .swiper-pagination-bullet-active {	background:url(../images/active_hover.png) no-repeat;width:68px;border-radius:0%;}
+/*第六屏幕*/ 
+.page6{ background:url(../images/phone_bg_06.jpg) center center no-repeat; height:331px;margin-top:-1px;}
+.twitter_box{width:319px; height: 156px; position: absolute; top:124px;right:30px;}
+/*第七屏幕*/  
+.page7{width:100%;height:160px;background:#161212; padding-top:40px;}
+.page7 .flex{ text-align: center;}
+.page7 div{margin-bottom: 8px;}
+/*返回顶部*/ 
+
+/*各种弹框*/ 
+.masked{background: rgba(0,0,0,0.8);position: fixed; display:none;width:100%;height:100%;left:0;top:0; z-index:11;}
+.login_box{width: 600px;position: fixed;color:#fff;top:50%;left:50%;transform:translate(-50%,-50%);padding:20px;display:none;z-index:12; transition: all 0.3s;}
+.login_content{width:600px; margin:0 auto; display: flex; justify-content: space-between;}
+.closed{float: right; height: 50px;margin-bottom: 10px;}
+.closed img{transition: all 0.3s;}
+.closed img:hover{transform:rotate(90deg);}
+
+/* 
+.tc_loser{width: 366px; height:67px;background:url(../images/tc_cg_tip.png) no-repeat;position: fixed;color:#fff;top:50%;left:50%;transform:translate(-50%,-50%);z-index:12; transition: all 0.3s; display: none;}
+.tc_loser_red{width: 366px; height:67px;background:url(../images/tc_cg_red.png)  no-repeat;position: fixed;color:#fff;top:50%;left:50%;transform:translate(-50%,-50%);z-index:12; transition: all 0.3s;display: none;}
+
+.tc_twitter{width: 368px; height:172px;background:url(../images/tc_bg_43.png)  no-repeat;position: fixed;color:#fff;top:50%;left:50%;transform:translate(-50%,-50%);z-index:12; transition: all 0.3s;display: none;}
+.btn_twitter{display: flex;width: 363px; justify-content: center; margin-top: 100px;}
+
+.tc_topvalue{width: 368px; height:67px;background:url(../images/tc_bg_50.png)  no-repeat;position: fixed;color:#fff;top:50%;left:50%;transform:translate(-50%,-50%);z-index:12; transition: all 0.3s;display: none;}
+ */
+
+
+/*后面添加的样式都在这里*/
+
+
+  /* .tc_detail{width: 588px; height:638px;background:url(../images/tc_detail.png)  no-repeat;position: fixed;color:#fff;top:50%;left:50%;transform:translate(-50%,-50%);z-index:12; transition: all 0.3s;display: none;}
+
+  .tc_confirm_1{width: 366px; height:162px;background:url(../images/tc_tip.png)  no-repeat;position: fixed;color:#fff;top:50%;left:50%;transform:translate(-50%,-50%);z-index:12; transition: all 0.3s;display: none;}
+  .btn_confirm{display: flex;width: 363px; justify-content: center; margin-top: 100px;}
+
+
+.tc_confirm{width: 366px; height:162px;background:url(../images/tc_fim.png)  no-repeat;position: fixed;color:#fff;top:50%;left:50%;transform:translate(-50%,-50%);z-index:12; transition: all 0.3s;display: none;}
+.btn_confirm{display: flex;width: 363px; justify-content: center; margin-top: 100px;}
+  
+
+.tc_succes{width: 366px; height:242px;background:url(../images/tc_succes.png)  no-repeat;position: fixed;color:#fff;top:50%;left:50%;transform:translate(-50%,-50%);z-index:12; transition: all 0.3s;display: none;}
+.tc_ico{display: flex;width: 366px; justify-content: center; margin-top: 168px;}
+
+.tc_wrong{width: 366px; height:113px;background:url(../images/tc_wrong.png)  no-repeat;position: fixed;color:#fff;top:50%;left:50%;transform:translate(-50%,-50%);z-index:12; transition: all 0.3s;display: none;}
+
+ */
+
+
+
+
+
+
+
+/* .scrollone  {width:230px;height: 329px;}
+.scrollone .swiper-slide {height: auto; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0x;}
+.scrollone .swiper-slide p img{margin-right:6px;margin-bottom:3px;} */
+.game_roles .swiper_dock_list{ width:520px; height:101px;position:relative;background:url(../images/small_btn_03.png) no-repeat; z-index:10; margin:0 auto;}
+
+/* .nav_ico{position: absolute; left: 0;top:0;width:79px; height: 79px; cursor: pointer;;}
+.sidenav  a{  display:block; height:27px;}
+.sidenav  a.nav_01{position:absolute; top:9px; left:14px;width:99px; background:url(../images/nav_01.png) no-repeat;}
+.sidenav  a.nav_02{position:absolute; top:62px; left:14px;width:218px; background:url(../images/nav_02.png) no-repeat;}
+.sidenav  a.nav_03{position:absolute; top:123px; left:14px;width:137px;  background:url(../images/nav_03.png) no-repeat;}
+.sidenav  a.nav_04{position:absolute; top:187px; left:14px;width:105px;  background:url(../images/nav_04.png) no-repeat;}
+.sidenav a.nav_05{position:absolute; top:248px; left:14px;width:106px;  background:url(../images/nav_05.png) no-repeat;}
+.sidenav  a.nav_01:hover,.sidenav  a.nav_01.on{ background:url(../images/nav_01_hover.png) no-repeat;}
+.sidenav  a.nav_02:hover,.sidenav  a.nav_02.on{ background:url(../images/nav_02_hover.png) no-repeat;}
+.sidenav  a.nav_03:hover,.sidenav  a.nav_03.on{ background:url(../images/nav_03_hover.png) no-repeat;}
+.sidenav  a.nav_04:hover,.sidenav  a.nav_04.on{ background:url(../images/nav_04_hover.png) no-repeat;}
+.sidenav  a.nav_05:hover,.sidenav  a.nav_05.on{ background:url(../images/nav_05_hover.png) no-repeat;}
+.sidenav { height: 316px; width: 0px; position: fixed; z-index: 111111; top: 0;  left: 80px; background: url(../images/nav_bg_02.png) no-repeat; 
+ overflow-x: hidden; transition: 0.5s;  padding-top: 60px;}
+.sidenav a {text-decoration: none;font-size: 25px; color: #fff;display: block;transition: 0.3s;}
+.sidenav a:hover, .offcanvas a:focus{color: #f1f1f1;}
+.sidenav .closebtn {position: absolute; top: 0;right: 25px; font-size: 46px; margin-left: 50px;}
+@media screen and (max-height: 450px) {.sidenav {padding-top: 15px;}.sidenav a {font-size: 18px;}}
+#inline_content{ background:url(../images/input_cg.jpg);width:790px; height: 416px; overflow: hidden; position:relative;}
+.one{position:absolute; bottom:10px;left:10px; }
+.two{position:absolute; bottom:10px; left:210px;}
+.three{position:absolute; bottom:10px; left:395px;}
+.four{position:absolute; bottom:10px;left:590px;} 
+.tcmain{width:264px; padding-top:10px;height:357px; background:url(../images/scroll_bg_03.png); position:absolute;top:473px;right:20px;box-sizing:border-box;text-align:center; z-index:2;}
+#tc-wrapper1{ height: 336px; position: relative;width:90%;margin:0 auto;}
+ .num-list li img{margin-bottom:4px;margin-right: 10px;}
+
+*/
+
+
+.card_role{position: absolute; bottom:54px; left:0px;z-index:1;}
+.page3{width:750px; height:1200px;background: url(../images/phone_bg_03.jpg); position: relative;}
+
+.login_right{height:200px; padding-top: 122px;}
+.login_right p:first-child{margin-bottom: 10px;}
+
+#top-back{ position:fixed; bottom:50px; right:50px; width:50px; height:74px; color:#fff; background:url(../images/top.png); text-align:center; line-height:50px; z-index:9;}
+#top-back a{color:#fff;width:50px; height:74px; display: block;}
+.text{position: absolute; top:156px; left: 41px;z-index:1;}
+
+
+
+
+
+
+
+
+.tc_loser{width: 538px; height:98px;background:url(../images/tc_cg_tip.png) no-repeat;position: fixed;color:#fff;top:50%;left:50%;transform:translate(-50%,-50%);z-index:12; transition: all 0.3s; display: none;}
+.tc_loser_red{width: 538px; height:98px;background:url(../images/tc_cg_red.png)  no-repeat;position: fixed;color:#fff;top:50%;left:50%;transform:translate(-50%,-50%);z-index:12; transition: all 0.3s;display: none;}
+
+.tc_twitter{width: 538px; height:253px;background:url(../images/tc_bg_43.png)  no-repeat;position: fixed;color:#fff;top:50%;left:50%;transform:translate(-50%,-50%);z-index:12; transition: all 0.3s;display: none;}
+.btn_twitter{display: flex;width: 538px; justify-content: center; margin-top: 150px;}
+
+.tc_topvalue{width: 538px; height:99px;background:url(../images/tc_bg_50.png)  no-repeat;position: fixed;color:#fff;top:50%;left:50%;transform:translate(-50%,-50%);z-index:12; transition: all 0.3s;display: none;}
+
+
+
+/*后面添加的样式都在这里*/
+
+
+  .tc_detail{width: 665px; height:720px;background:url(../images/tc_detail.png)  no-repeat;position: fixed;color:#fff;top:50%;left:50%;transform:translate(-50%,-50%);z-index:12; transition: all 0.3s;display: none;}
+
+  .tc_confirm_1{width: 538px; height:238px;background:url(../images/tc_tip.png)  no-repeat;position: fixed;color:#fff;top:50%;left:50%;transform:translate(-50%,-50%);z-index:12; transition: all 0.3s;display: none;}
+  .btn_confirm{display: flex;width: 538px; justify-content: center; margin-top: 100px;}
+
+
+.tc_confirm{width: 538px; height:238px;background:url(../images/tc_fim.png)  no-repeat;position: fixed;color:#fff;top:50%;left:50%;transform:translate(-50%,-50%);z-index:12; transition: all 0.3s;display: none;}
+.btn_confirm{display: flex;width: 538px; justify-content: center; margin-top: 141px;}
+.btn_confirm img:first-child{margin-right:60px;}
+  
+
+.tc_succes{width: 538px; height:356px;background:url(../images/tc_succes.png)  no-repeat;position: fixed;color:#fff;top:50%;left:50%;transform:translate(-50%,-50%);z-index:12; transition: all 0.3s;display: none;}
+.tc_ico{display: flex;width: 538px; justify-content: center; margin-top: 245px;}
+
+.tc_wrong{width: 538px; height:166px;background:url(../images/tc_wrong.png)  no-repeat;position: fixed;color:#fff;top:50%;left:50%;transform:translate(-50%,-50%);z-index:12; transition: all 0.3s;display: none;}
