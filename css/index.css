@@ -1,6 +1,4 @@
 ﻿@charset "utf-8";
-
-
 html,
 body {
   position: relative;
@@ -8,32 +6,23 @@ body {
 }
 
 body {
-  background: #000;
+  background: #eee;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
   margin: 0;
   padding: 0;
-} 
-a{ text-decoration:none; outline:none;} 
-ol,ul,li{list-style:none;}
-area{outline:none;}
-img{ border:0;}
-/* body{ margin:0; padding:0; font:normal 100% "Microsoft YaHei",\5b8b\4f53,Arial, Helvetica, sans-serif; -webkit-tap-highlight-color: rgba(0,0,0,0);} */
-/* div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,select,textarea,table,td{ margin:0; padding:0;}
-
-
-*/
-
-/*
-.clearfix:after {content:"";display:block;height:0;clear:both;} 
+}
+/*body{ margin:0; padding:0; font:normal 100% "Microsoft YaHei",\5b8b\4f53,Arial, Helvetica, sans-serif; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+ div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,select,textarea,table,td{ margin:0; padding:0;}.clearfix:after {content:"";display:block;height:0;clear:both;} 
 .clearfix {zoom:1;}
- .pub_clr{clear:both;font-size:0;height:0;line-height:0;overflow:hidden;}
+.pub_clr{clear:both;font-size:0;height:0;line-height:0;overflow:hidden;}
 .auto{left: 50%; -webkit-transform:translate(-50%,0); -moz-transform:translate(-50%,0); -ms-transform:translate(-50%,0); -o-transform:translate(-50%,0); transform:translate(-50%,0);}
 .box_justify{ display: -webkit-box; display: -moz-box; display: -o-box; display: -ms-box; -webkit-box-pack:justify; -moz-box-pack:justify; -o-box-pack:justify; -ms-box-pack:justify; box-pack:justify;} */
-
-
-
+area{outline:none;}
+img{ border:0;}
+ol,ul,li{list-style:none;}
+a{ text-decoration:none; outline:none;}
 .closed{position: absolute;top:6px; right:8px;}
 .closed img{transition: all 0.3s;}
 .closed img:hover{transform:rotate(90deg);}
@@ -184,11 +173,8 @@ a.video{    position: absolute; top: 71px;left: 135px;width: 50px;height: 30px;d
  .num-list li img{margin-bottom:4px;margin-right: 10px;}
 
 */
-/* 
-.scrollwrap{width:264px; padding-top:17px;height:358px; background:url(../images/scroll_bg_03.png); position:absolute;top:685px;right:20px;box-sizing:border-box;z-index:2;}
-.scrollone  {width:230px;height: 329px;}
-.scrollone .swiper-slide {height: auto; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0x; font-size: 18px;}
-.scrollone .swiper-slide p img{margin-right:6px;margin-bottom:3px;} */
+
+
 .card_role{position: absolute; bottom:54px; left:0px;z-index:1;}
 .page3{width:750px; height:1200px;background: url(../images/phone_bg_03.jpg); position: relative;}
 
