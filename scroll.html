@@ -51,41 +51,256 @@
 </head>
 
 <body>
-  <!-- Swiper -->
-  <div class="scrollwrap">
-    <div class="swiper-container scrollone">
-      <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <p><img src="images/6.png"><img src="images/6.png"><img src="images/6.png"></p>
-        <p><img src="images/4.png"><img src="images/5.png"><img src="images/6.png"></p>
-        <p><img src="images/7.png"><img src="images/8.png"><img src="images/9.png"></p>
-        <p><img src="images/10.png"><img src="images/11.png"><img src="images/12.png"></p>
-        <p><img src="images/13.png"><img src="images/14.png"><img src="images/15.png"></p>
-        <p><img src="images/16.png"><img src="images/17.png"><img src="images/18.png"></p>
-        <p><img src="images/19.png"><img src="images/20.png"><img src="images/21.png"></p>
-        <p><img src="images/22.png"><img src="images/23.png"></p>
-      </div>
-      </div>
-      <!-- Add Scroll Bar -->
-      <div class="swiper-scrollbar"></div>
+ 	<!--点击发送信息没input输入-->
+   <div class="tc_wrong">    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+	</div>
+	<!--点击发送信息没input没有输入-->
+	<div class="tc_loser" >    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+	</div>
+
+	<div class="tc_loser_red">    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+	</div>
+	<!--点击发送信息input输入内容-->
+	<div class="tc_succes">    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+		<div class="tc_ico">
+			<a href="#" style="margin-right:10px;"> <img src="images/tc_lose_img1.png"/></a><a href="#"><img src="images/tc_lose_img2.png"/></a>
+		</div>
+	</div>
+	<!--达成部分下面详细信息-->
+	<div class="tc_detail" >    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+	</div>
+	<!--没有登录twitter提示-->
+	<div class="tc_twitter" >    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+		<div class="btn_twitter">
+			<img src="images/twitter.png"/>
+		</div>
+	</div>
+	<!--今日达到上限提示-->
+	<div class="tc_topvalue">    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+	</div>
+	<!--需要确认提示-->
+	<div class="tc_confirm" >    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+		<div class="btn_confirm">
+			<img src="images/tc_btn_sure.png"/><img src="images/tc_btn_quxiao.png"/>
+		</div>
+	</div>
+
+	<!--需要确认提示1-->
+	<div class="tc_confirm_1" >    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+		<div class="btn_confirm">
+			<img src="images/tc_btn_sure.png"/><img src="images/tc_btn_quxiao.png"/>
+		</div>
+	</div>
+
+	<div class="masked"></div>
+	<div class="login_box">    
+		<div class="closed"><img src="images/close.png" alt=""></div>
+		<div class="login_content" >
+			<div  class="login_left"><img src="images/small_tip1.png"/><img src="images/card_01.png"/></div>
+			<div  class="login_center"><img src="images/small_tip2.png"/><img src="images/card_02.png"/></div>
+			<div  class="login_right">
+				<p><a href="#" ><img src="images/tc_ico_sure.png"/></a></p>
+				<p><a href="#"><img src="images/tc_ico_change.png"/></a></p>
+			</div>
+
+		</div>
+	</div>
+	<!--第一屏幕 --> 
+	<div class="page1" id="section1">
+		<div class="logo animated  fadeInDown"><a href="index.html"><img src="images/logo.png"></a></div>
+		<div class="input1" >
+            <P ><input name="" type="text"  class="text_content1"/></P>
+        </div>
+		<div class="login_btn"><a class="send" href="javascript:void(0)"></a></div>
+        <div class="page1_ico_bg">
+			<a href="#" target="_blank" class="one1"><img src="images/phone_btn_gg.png"/></a>
+			<a href="#" target="_blank" class="one2"><img src="images/phone_btn_app.png" /></a>
+			<a href="#" target="_blank" class="one3"><img src="images/phone_btn_line.png"/></a>
+			<a href="#" target="_blank" class="one3"><img src="images/phone_btn_twitter.png"/></a>
+        </div>
+	</div>
+	<!--第二屏幕 --> 
+	<div class="page2" id="section2">
+		<div class="da_cheng01"><img src="images/dacheng.png" ></div>
+		<div class="da_cheng02"><img src="images/dacheng.png" ></div>
+		<div class="da_cheng03"><img src="images/dacheng.png" ></div>
+		<div class="da_cheng04"><img src="images/dacheng.png" ></div> 
+		<div class="details"><a href="javascript:void(0)"></a></div> 
+	</div>
+	<!--第三屏幕 --> 
+	<div class="page3" id="section3">
+		<div class="box_video">
+			<div class="click_btn"><img src="images/box_btn.png"></div>
+			<div class="text"><img src="images/text.png"></div>
+			<div class="box_img"><img src="images/box_one.png"></div>
+			<div class="card_role">
+				<img src="images/role_01.png">
+			</div>
+		</div>
+		<div class="scrollwrap">
+			<div class="swiper-container scrollone">
+				<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<p><img src="images/2.png"><img src="images/2.png"><img src="images/2.png"></p>
+					<p><img src="images/4.png"><img src="images/5.png"><img src="images/6.png"></p>
+					<p><img src="images/7.png"><img src="images/8.png"><img src="images/9.png"></p>
+					<p><img src="images/10.png"><img src="images/11.png"><img src="images/12.png"></p>
+					<p><img src="images/13.png"><img src="images/14.png"><img src="images/15.png"></p>
+					<p><img src="images/16.png"><img src="images/17.png"><img src="images/18.png"></p>
+					<p><img src="images/19.png"><img src="images/20.png"><img src="images/21.png"></p>
+					<p><img src="images/22.png"><img src="images/23.png"></p>
+				</div>
+				</div>
+				<!-- Add Scroll Bar -->
+				<div class="swiper-scrollbar"></div>
+			</div>
+		  </div>
     </div>
-  </div>
-
-  <!-- Swiper JS -->
-  <script src="swiper-bundle.min.js"></script>
-
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      direction: 'vertical',
-      slidesPerView: 'auto',
-      freeMode: true,
-      scrollbar: {
-        el: '.swiper-scrollbar',
-      },
-      mousewheel: true,
+	<!--第四屏幕 --> 
+	<div class="page4" id="section4">
+		<div class="main_center">
+			<div class="game_roles">
+				<div class="swiper-container roles_wrap">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide slide1">
+							<div class="role_info">
+								<a class="videoBtn  video1" href="https://v.qq.com/iframe/player.html?vid=o0892o8pdxt&tiny=0&auto=0" ><img src="images/video_bg.png"></a>
+							</div>
+							<div class="role_jineng role_jineng1">
+								<a href="javascript:void(0)"  class="video audio0" ></a>
+								
+							</div>
+							<img src="images/page3_renwu_01.png" class="role_img1 role_img"/>
+						</div>
+						<div class="swiper-slide slide2">
+							<div class="role_info">
+								 <a class="videoBtn  video1" href="https://v.qq.com/iframe/player.html?vid=o0892b658h4&tiny=0&auto=0" ><img src="images/video_bg.png"></a>
+							</div>
+							<div class="role_jineng role_jineng2">
+							   <a href="javascript:void(0)"  class="video audio1"></a>
+							</div>
+							<img src="images/page3_renwu_02.png" class="role_img2 role_img"/>
+						</div>
+						<div class="swiper-slide slide3">
+							<div class="role_info">
+								 <a class="videoBtn  video1" href="https://v.qq.com/iframe/player.html?vid=f0369vjbire&tiny=0&auto=0" ><img src="images/video_bg.png"></a>
+							</div>
+							<div class="role_jineng role_jineng3">	<a href="javascript:void(0)"  class="video audio2"></a></div>
+							<img src="images/page3_renwu_03.png" class="role_img3 role_img"/>
+						</div>
+						<div class="swiper-slide slide4">
+							<div class="role_info">
+								<a class="videoBtn  video1" href="https://v.qq.com/iframe/player.html?vid=b08922rmpab&tiny=0&auto=0" ><img src="images/video_bg.png"></a>
+							</div>
+							<div class="role_jineng role_jineng4">	<a href="javascript:void(0)"  class="video audio3"></a></div>
+							<img src="images/page3_renwu_04.png" class="role_img4 role_img"/>
+						</div>
+						<div class="swiper-slide slide5">
+							<div class="role_info">
+								<a class="videoBtn  video1" href="https://v.qq.com/iframe/player.html?vid=g0892vx3985&tiny=0&auto=0" ><img src="images/video_bg.png"></a>
+							</div>
+							<div class="role_jineng role_jineng5">	<a href="javascript:void(0)"  class="video audio4"></a></div>
+							<img src="images/page3_renwu_05.png" class="role_img5 role_img"/>
+						</div>
+						
+					</div>
+					<!-- <div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div> -->
+				</div>
+				<div class="swiper_list">
+					<ul class="swiper_dock_list">
+						<li> 
+							<a href="javascript:void(0)"><img class="icon on " src="images/small_hover_01.png"/></a>
+						</li>
+						<li>
+							<a href="javascript:void(0)"><img class="icon" src="images/small_hover_02.png"/></a>
+						</li>
+						<li>
+							<a href="javascript:void(0)"><img class="icon" src="images/small_hover_03.png"/></a>
+						</li>
+						<li>
+							<a href="javascript:void(0)"><img class="icon" src="images/small_hover_04.png"/></a>
+						</li>
+						<li>
+							<a href="javascript:void(0)"><img class="icon" src="images/small_hover_05.png"/></a>
+						</li>
+		
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--第五屏幕 --> 
+	 <div class="page5" id="section5">
+		<div class="main_center">
+			<div class="swiper-container box3">
+				<div class="swiper-wrapper">
+				  <div class="swiper-slide"><img src="images/fot_pic1.png" data-url="#"> </div>
+				  <div class="swiper-slide"><img src="images/fot_pic2.png" data-url="#"> </div>
+				  <div class="swiper-slide"><img src="images/fot_pic3.png" data-url="#"></div>
+				  <div class="swiper-slide"><img src="images/fot_pic4.png" data-url="#"></div>
+				  <div class="swiper-slide"><img src="images/fot_pic5.png" data-url="#"> </div>
+				</div>
+				<div class="swiper-pagination"></div>
+			  </div>
+			</div>
+		</div>
+	</div> 
+	<!--第六屏幕 --> 
+	<div class="page6" id="section6">
+	  <div class="main_center">
+			<div class='twitter_box'>
+				<iframe src="https://twitter.com/iryu_cone" style="border: medium none; overflow: hidden; width:100%; height:100%;" allowtransparency="true" frameborder="0" ></iframe>
+			</div></div>
+	</div>
+	<!--第七屏幕 --> 
+	<div class="page7">
+		<div class="flex">
+			<div class="footer_nav">
+				<a href="http://www.koramgame.co.jp/?act=service.aboutus" target="_blank"><img src="images/footer_nav_01.jpg"></a> 
+				<a href="http://www.koramgame.co.jp/?act=service.terms" target="_blank"><img src="images/footer_nav_02.jpg"></a> 
+				<a href="http://www.koramgame.co.jp/?act=service.privacy" target="_blank"><img src="images/footer_nav_03.jpg"></a> 
+				<a href="http://www.koramgame.co.jp/?act=service.sfyq" target="_blank"><img src="images/footer_nav_04.jpg"></a>
+			</div>
+		   <div><img src="images/footer_01.jpg"></div>
+		   <div><img src="images/footer_02.jpg"></div>
+	 </div>
+	<div id="top-back"><a href="#section1">頂部</a></div> 
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+	<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>  
+	<script>
+		var swiper = new Swiper('.box3', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+		slidesPerView: 'auto',
+		pagination: '.swiper-pagination',
+        paginationClickable: true,
+        loop : true,
+        initialSlide :0
     });
-  </script>
+		var swiper1 = new Swiper('.scrollone', {
+		direction: 'vertical',
+		slidesPerView: 'auto',
+		freeMode: true,
+		scrollbar: {
+			el: '.swiper-scrollbar',
+			//	hide: true,
+		},
+		mousewheel: true,
+		});
+	</script>
 </body>
 
 </html>
